@@ -1,8 +1,18 @@
-/* eslint-disable react/jsx-props-no-spreading */
+import React from "react";
 import { AppProps } from 'next/app'
+import { QueryClient, QueryClientProvider } from "react-query";
+import { ReactQueryDevtools } from "react-query/devtools";
 
 import '@src/styles/tailwind.css'
 
-const App = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />
-
-export default App
+function MyApp({ Component, pageProps }: AppProps) {
+    const [queryClient] = React.useState(() => new QueryClient());
+    return (
+      <QueryClientProvider client={queryClient}>
+        <Component {...pageProps} />
+        <ReactQueryDevtools initialIsOpen={false} />
+      </QueryClientProvider>
+    );
+  }
+  
+  export default MyApp;
