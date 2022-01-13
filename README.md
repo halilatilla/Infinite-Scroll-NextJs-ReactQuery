@@ -25,11 +25,10 @@ npm install or yarn install
 
 <br>
 
-`http://localhost:3000/`
-
 ```bash
 yarn dev
 ```
+`http://localhost:3000/`
 
 <br>
 
