@@ -1,9 +1,10 @@
 import { FC } from 'react'
 
+import { ICharacterList } from '@src/lib'
 import Character from '../CharacterListCard/CharacterListCard'
 
 interface Props {
-  data: any
+  data: ICharacterList
 }
 
 const CharacterList: FC<Props> = ({ data }) => {

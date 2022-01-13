@@ -1,6 +1,6 @@
 import { useInfiniteQuery } from 'react-query'
 
-import { getMarvelCharactersByLimit } from '../../api'
+import { getMarvelCharactersByLimit } from '@src/api'
 
 export const useGetMarvelCharactersByLimit = ({ initialData, limit: pageLimit }: any) => {
   const { data, hasNextPage, fetchNextPage, isError, isFetchingNextPage } = useInfiniteQuery(
