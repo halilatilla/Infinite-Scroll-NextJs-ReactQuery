@@ -1,1 +1,1 @@
-export { getMarvelCharacters, getMarvelCharactersByLimit } from './getMarvelCharacters'
+export { getMarvelCharacterById, getMarvelCharactersByLimit } from './getMarvelCharacters'
