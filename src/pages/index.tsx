@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import { NextPage, GetStaticProps } from 'next'
+import Head from 'next/head'
 
 import { CharacterList } from '@src/components'
 import { getMarvelCharactersByLimit } from '@src/api'
@@ -20,16 +21,22 @@ const Home: NextPage = (props: any) => {
   })
 
   return (
-    <main className="container mx-auto p-3 md:p-6">
-      {data && <CharacterList data={data} />}
-      {isError ? (
-        <div className="text-red-500 font-bold"> You may not request more than 100 items. </div>
-      ) : (
-        <div ref={loadMoreRef} className={`${!hasNextPage ? 'hidden' : ''}`}>
-          {isFetchingNextPage ? 'Loading more...' : ''}
-        </div>
-      )}
-    </main>
+    <>
+      <Head>
+        <title>Marvel</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <main className="container mx-auto p-3 md:p-6">
+        {data && <CharacterList data={data} />}
+        {isError ? (
+          <div className="text-red-500 font-bold"> You may not request more than 100 items. </div>
+        ) : (
+          <div ref={loadMoreRef} className={`${!hasNextPage ? 'hidden' : ''}`}>
+            {isFetchingNextPage ? 'Loading more...' : ''}
+          </div>
+        )}
+      </main>
+    </>
   )
 }
 
