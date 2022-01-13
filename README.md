@@ -19,7 +19,7 @@ To install and work on `https://github.com/halilatilla/path-frontend-challenge`
 
 ```bash
 git clone https://github.com/halilatilla/path-frontend-challenge
-cd https://github.com/halilatilla/path-frontend-challenge
+cd path-frontend-challenge
 npm install or yarn install
 ```
 
