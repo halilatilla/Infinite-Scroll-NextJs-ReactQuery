@@ -2,8 +2,9 @@ import { FC } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { ICharacter } from '@src/lib'
 interface Props {
-  character: any
+  character: ICharacter
 }
 
 const CharacterListCard: FC<Props> = ({ character }) => {
@@ -16,7 +17,7 @@ const CharacterListCard: FC<Props> = ({ character }) => {
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNcWg8AAc8BJpg2zxQAAAAASUVORK5CYII="
             className="object-center object-cover"
-            src={`${character.thumbnail.path}.${character.thumbnail.extension}`}
+            src={`${character?.thumbnail?.path}.${character?.thumbnail?.extension}`}
             alt={character.name}
           />
         </div>
