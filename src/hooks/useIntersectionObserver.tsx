@@ -1,14 +1,23 @@
-import React from 'react'
+import { useEffect } from 'react'
 
-export default function useIntersectionObserver({
+interface Props {
+  root?: any
+  target?: any
+  onIntersect?: any
+  threshold?: number
+  rootMargin?: string
+  enabled?: boolean | undefined
+}
+
+const useIntersectionObserver = ({
   root,
   target,
   onIntersect,
   threshold = 1.0,
   rootMargin = '0px',
   enabled = true,
-}) {
-  React.useEffect(() => {
+}: Props) => {
+  useEffect(() => {
     if (!enabled) {
       return
     }
@@ -35,3 +44,5 @@ export default function useIntersectionObserver({
     }
   }, [target.current, enabled])
 }
+
+export default useIntersectionObserver

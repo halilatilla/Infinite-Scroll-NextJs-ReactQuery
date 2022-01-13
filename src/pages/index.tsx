@@ -8,6 +8,7 @@ import { useGetMarvelCharactersByLimit, useIntersectionObserver } from '@src/hoo
 const Home: NextPage = (props: any) => {
   const { data, hasNextPage, fetchNextPage, isError, isFetchingNextPage } = useGetMarvelCharactersByLimit({
     initialData: props.data,
+    limit: 30,
   })
 
   const loadMoreRef = useRef<HTMLHeadingElement>(null)

@@ -1,2 +1,2 @@
 export { default as useIntersectionObserver } from './useIntersectionObserver'
-export { useGetMarvelCharactersByLimit } from './useGetMarvelCharacters'
+export { useGetMarvelCharactersByLimit } from './api/useGetMarvelCharacters'

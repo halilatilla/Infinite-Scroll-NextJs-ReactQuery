@@ -1,7 +1,7 @@
 import { fetch } from './fetch'
 
-export const getMarvelCharacters = async () => {
-  const { data } = await fetch(`/public/characters`)
+export const getMarvelCharacterById = async (characterId: number | undefined) => {
+  const { data } = await fetch(`/public/characters/${characterId}`)
 
   return data.data.results
 }
