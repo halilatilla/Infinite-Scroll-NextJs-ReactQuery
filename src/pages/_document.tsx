@@ -14,6 +14,7 @@ class MyDocument extends Document {
           <meta content="#ffffff" name="theme-color" />
           <meta content="#ffffff" name="msapplication-TileColor" />
           <meta charSet="UTF-8" />
+          <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 
           <link href="/favicons/site.webmanifest" rel="manifest" />
           <link href="/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
