@@ -7,7 +7,7 @@ exports[`Character Detail Card renders correctly 1`] = `
     data-testid="character-detail-card"
   >
     <div
-      class="h-[600px] relative"
+      class="h-[600px] relative rounded overflow-hidden"
     >
       <span
         style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"

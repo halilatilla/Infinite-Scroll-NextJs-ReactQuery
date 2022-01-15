@@ -3,7 +3,7 @@
 exports[`Character List Card renders correctly 1`] = `
 <div>
   <a
-    class="rounded overflow-hidden transition shadow hover:shadow-lg border"
+    class="group rounded overflow-hidden border bg-gray-700"
     data-testid="character-list-card"
     href="/character/1"
   >
@@ -15,7 +15,7 @@ exports[`Character List Card renders correctly 1`] = `
       >
         <img
           alt=""
-          class="object-center object-cover"
+          class="object-center object-cover transition duration-300 transform group-hover:scale-110 "
           data-nimg="fill"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
