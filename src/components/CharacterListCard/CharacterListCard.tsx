@@ -10,7 +10,7 @@ interface Props {
 const CharacterListCard: FC<Props> = ({ character }) => {
   return (
     <Link href={`/character/${character.id}`}>
-      <a className="rounded overflow-hidden transition shadow hover:shadow-lg border">
+      <a className="rounded overflow-hidden transition shadow hover:shadow-lg border" data-testid="character-list-card">
         <div className="h-[200px] relative">
           <Image
             layout="fill"
