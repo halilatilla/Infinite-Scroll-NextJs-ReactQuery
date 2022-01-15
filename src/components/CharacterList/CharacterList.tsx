@@ -4,7 +4,7 @@ import { ICharacterList } from '@src/lib'
 import Character from '../CharacterListCard/CharacterListCard'
 
 interface Props {
-  data?: ICharacterList
+  data: ICharacterList
 }
 
 const CharacterList: FC<Props> = ({ data }) => {
