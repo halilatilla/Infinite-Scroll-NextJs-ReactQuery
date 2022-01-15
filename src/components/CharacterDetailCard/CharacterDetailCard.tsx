@@ -10,7 +10,7 @@ interface Props {
 const CharacterDetailCard: FC<Props> = ({ character }) => {
   return (
     <div className="max-w-lg mx-auto" data-testid="character-detail-card">
-      <div className="h-[600px] relative">
+      <div className="h-[600px] relative rounded overflow-hidden">
         <Image
           layout="fill"
           placeholder="blur"
