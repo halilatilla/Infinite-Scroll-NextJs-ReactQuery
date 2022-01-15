@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 
 import CharacterListCard from './CharacterListCard'
 
-describe('Character Detail List Card', () => {
+describe('Character List Card', () => {
   const CHARACTER = {
     character: { id: 1, thumbnail: { path: '/', extension: 'jpg' }, name: '', description: '', comics: { items: [] } },
   }

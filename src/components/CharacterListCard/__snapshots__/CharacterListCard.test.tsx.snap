@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Character Detail List Card renders correctly 1`] = `
+exports[`Character List Card renders correctly 1`] = `
 <div>
   <a
     class="rounded overflow-hidden transition shadow hover:shadow-lg border"
