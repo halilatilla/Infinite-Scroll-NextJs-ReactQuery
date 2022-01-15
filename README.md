@@ -5,9 +5,10 @@
 
 ### **Nextjs-Tailwind-Typescript-Jest-React-Query**
 
-![scroll-infinite](https://user-images.githubusercontent.com/27916419/149330131-16edf70a-5a13-469b-87d5-b0287dbb7493.gif)
+![infinite-scroll](https://user-images.githubusercontent.com/27916419/149632380-3b8fd31c-3d0a-4d33-8c69-868b8cabff00.gif)
 
 <br>
+
 
 ## Development
 
