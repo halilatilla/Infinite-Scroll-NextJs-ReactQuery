@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-import { ICharacterList } from '@src/lib'
+import { ICharacterList } from '@src/types'
 import Character from '../CharacterListCard/CharacterListCard'
 
 interface Props {
