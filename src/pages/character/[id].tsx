@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { getMarvelCharacterById } from '@src/api'
 import { CharacterDetailCard } from '@src/components'
-import { ICharacterListDetail } from '@src/lib'
+import { ICharacterListDetail } from '@src/types'
 
 const Character: NextPage<ICharacterListDetail> = ({ data }: ICharacterListDetail) => {
   return (

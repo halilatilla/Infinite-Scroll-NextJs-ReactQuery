@@ -1,7 +1,8 @@
 import { FC } from 'react'
 import Image from 'next/image'
 
-import { findYearInString, ICharacter } from '@src/lib'
+import { findYearInString } from '@src/lib'
+import { ICharacter } from '@src/types'
 
 interface Props {
   character?: ICharacter

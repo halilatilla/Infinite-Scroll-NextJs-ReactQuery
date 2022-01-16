@@ -1,4 +1,4 @@
-import { ICharacter } from '@src/lib'
+import { ICharacter } from '@src/types'
 
 export interface ICharacterList {
   pagesParam?: []
