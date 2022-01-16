@@ -13,3 +13,9 @@
     @apply antialiased bg-gray-800 text-gray-100;
   }
 }
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
