@@ -1,4 +1,5 @@
-# Path Frontend Challenge
+# Infinite Scroll with NextJs & ReactQuery
+
 
 ### [Demo](https://path-frontend-challenge.vercel.app/)
 
