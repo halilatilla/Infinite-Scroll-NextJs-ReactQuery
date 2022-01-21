@@ -1,7 +1,7 @@
 # Infinite Scroll with NextJs & ReactQuery
 
 
-### [Demo](https://path-frontend-challenge.vercel.app/)
+### [Demo](https://infinte-scroll-nextjs-reactquery.vercel.app)
 
 
 ### **Nextjs-Tailwind-Typescript-Jest-React-Query**
