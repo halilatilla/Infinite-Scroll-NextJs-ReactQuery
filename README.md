@@ -1,43 +1,52 @@
-# Infinite Scroll with NextJs & ReactQuery
+# 📜 Infinite Scroll with Next.js & React Query - [Demo](https://infinte-scroll-nextjs-reactquery.vercel.app)
+Build powerful, smooth, and seamless infinite scrolling experiences in your web applications.
 
-
-### [Demo](https://infinte-scroll-nextjs-reactquery.vercel.app)
-
-
-### **Nextjs-Tailwind-Typescript-Jest-React-Query**
+<br>
 
 ![infinite-scroll](https://user-images.githubusercontent.com/27916419/149632380-3b8fd31c-3d0a-4d33-8c69-868b8cabff00.gif)
 
 <br>
 
+## **🧰 Tech Stack**
 
-## Development
-
-Pull requests are encouraged and always welcome.
-[Pick an issue](https://github.com/halilatilla/path-frontend-challenge/issues)
-and help us out!
-
-To install and work on `https://github.com/halilatilla/path-frontend-challenge`
-
-```bash
-git clone https://github.com/halilatilla/path-frontend-challenge
-cd path-frontend-challenge
-npm install or yarn install
-```
+- Next.js
+- TailwindCSS
+- TypeScript
+- Jest
+- React Query
 
 <br>
 
-```bash
+## **🚀 Development**
+
+Contributions are welcome and appreciated! Feel free to submit pull requests and help us improve the project.
+
+To set up and work on the **[Infinite Scroll repository](https://github.com/halilatilla/path-frontend-challenge)**:
+
+```
+git clone https://github.com/halilatilla/path-frontend-challenge.git
+cd path-frontend-challenge
+npm install
+// or
+yarn install
+```
+
+Start the development server:
+
+```
 yarn dev
 ```
-`http://localhost:3000/`
+
+Visit **[http://localhost:3000/](http://localhost:3000/)**
 
 <br>
 
-## Authors
+## **👤 Authors**
 
-- [@halilatilla](https://www.github.com/halilatilla)
+- **[@halilatilla](https://github.com/halilatilla)**
 
-## License
+<br>
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## **📄 License**
+
+This project is licensed under the MIT License - see the **[LICENSE](https://github.com/halilatilla/path-frontend-challenge/blob/main/LICENSE)** file for details.
